@@ -3,7 +3,6 @@ import falcon
 from images import Resource
 
 
-api = application = falcon.API()
-
+api = wsgi_app = falcon.API()
 images = Resource()
 api.add_route('/images', images)
