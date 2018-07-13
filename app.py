@@ -1,6 +1,5 @@
 import falcon
 
-from .images import Resource
 
 
 api = application = falcon.API()
